@@ -2,17 +2,15 @@
 Built functionality of Assembler using python3 language
 Implepented code of i386 assebly language code combile and show how internal processing done.
 1)  you want to run code simply run below command 
-    -see the symbol table 
-        > python3 mainfile.py -s message.asm
-		      python3 mainfile.py -s anyFileToInput.asm
-	  -see literal table 
-		    >python3 mainfile.py -l message.asm
-	
+    see the symbol table 
+        >> python3 mainfile.py -s anyFileToInput.asm message.asm
+		 python3 mainfile.py -s  message.asm
+	  see literal table 
+		>> python3 mainfile.py -l message.asm
 	  -you want to see the intermediate code 
 		  >python3 mainfile.py -intr message.asm
-	
 	-you want to see file of '_.lst' file
-		>python3 mainfile.py -lst add1.asm
+		>> python3 mainfile.py -lst add1.asm
 		in lst file squere bracket define constant '[constant]',{with scale index and base},(define with without scale index and base)
 2) working process:
 	- read line by line of .asm file and input to code 

@@ -1,4 +1,4 @@
-Implepented code of i386 assebly language code combile and show how internal processing done.
+Implemented code of i386 assembly language code interprete and show how internaly code runs.
 1)  you want to run code simply run command 
 	-if see the symbol table 
 		> python3 mainfile.py -s add1.asm
